@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from joblib import Parallel, delayed
-from apprpximate_multiplier import FP_appx_mul
+from approximate_multiplier import FP_appx_mul
 import torch.nn.functional as F
 
 class convAppx(torch.autograd.Function):
